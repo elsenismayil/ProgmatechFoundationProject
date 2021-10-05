@@ -1,0 +1,36 @@
+.x{ width: 700px;
+height: 263px;
+background: linear-gradient( gray 20%,#c6c0c0 20% );
+ 
+margin: 0 auto;
+}
+.y{ width: 700px;
+height: 233px;
+/* border: 1px solid black; */
+margin: 0 auto;
+margin-top: 79px;
+display: flex;
+justify-content: space-between;}
+
+.z{ width: 206px;
+height: 167px;
+background: gray;
+/* border: 1px solid black; */
+}
+
+.t{
+    width: 700px;
+height: 244px;
+background: gray;
+margin: 0 auto;
+/* border: 1px solid black; */
+display: flex; 
+justify-content: space-evenly;
+margin-top: 41px; }
+
+ .m{
+    width: 206px;
+    height: 167px;
+    background: rgb(189, 187, 187);
+    /* border: 1px solid black; */
+margin-top: 36px; }
