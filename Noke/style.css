@@ -1,0 +1,80 @@
+/* info start */
+#info{
+    
+    display: flex;
+    background-color:#fff ;
+   
+}
+.container{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 1420px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.noke{
+    /* border: 1px solid green; */
+    display: flex;
+    margin-top: 10px;
+    margin: 15px 0px;
+}
+.envy-theme{
+    /* border: 1px solid blue; */
+    display: flex;
+    margin-top: 14px;
+}
+.info-sosial{
+    
+    display: flex;
+
+  
+}
+.envy-theme span{
+    margin-top: 15px;
+}
+.info-sosial i{
+    font-size: larger;
+    margin-right: 14px;
+    margin-top: 26px;
+}
+/* info end */
+
+/* analystic start */
+#analystic{
+  
+display: flex;
+background-color:#1b2232;;
+
+}
+.analystic-container{
+
+    margin: 0 auto;
+   width: 1420px;
+   justify-content: space-between;
+   display: flex;
+}
+.advanced,.busniess,.growth,.sale{
+  
+   display: flex;
+   margin: 25px 0px;
+}
+.advanced-text,.busniess-text,.growth-text,.sale-text{
+  
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    font-family: 'Manrope', sans-serif ;
+    margin-top: 15px;
+    color: white;
+   
+}
+
+.icon1 i, .icon2 i,.icon3 i, .icon4 i{
+    font-size: 3em;
+    margin-right: 20px;
+    margin-top: 15px;
+    color:#4eaf4e ;
+}
+/* analystic end */
