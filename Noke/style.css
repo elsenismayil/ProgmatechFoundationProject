@@ -78,3 +78,70 @@ background-color:#1b2232;;
     color:#4eaf4e ;
 }
 /* analystic end */
+/* details start */
+#details{
+  
+    display: flex;
+    margin: 0 auto;
+    padding: 35px 0px;
+    background-color:#fff ;
+}
+.details-container{
+   
+    width: 1420px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+   
+}
+.details-contact{
+    /* border: 1px solid blue; */
+}
+
+.details-link{
+   
+    display: flex;
+    flex-direction: column;
+}
+.details-company{
+  
+    display: flex;
+    flex-direction: column;
+}
+.details-subscribe{
+    
+    display: flex;
+    flex-direction: column;
+}
+.subscribe-text{
+    display: flex;
+  
+    flex-direction: column;
+}
+h1, h2, h3, h4{
+    font-size: 20px;
+    font-family:'Poppins', sans-serif ;
+    color: #2d2d37;
+    margin-bottom: 25px;
+   
+}
+span{
+    font-size: 15;
+    color:#6f6f6f ;
+    margin: 5px;
+   
+}
+.details-location, .details-mail{
+   
+    margin-bottom: 15px;
+}
+
+.input{
+    margin-bottom: 15px;
+    font-size: large;
+}
+.details-contact i{
+    color: green;
+}
+/* details end */
