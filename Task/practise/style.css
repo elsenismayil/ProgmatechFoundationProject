@@ -63,11 +63,12 @@
 .picture{
     width: 1918px;
     height: 871px;
+   
     
     
 }
 picture img{
-  
+    
    
 }
 .noke{
@@ -99,3 +100,46 @@ picture img{
     display: flex;
 }
 /*  */
+/* picture start */
+
+.text{
+  ;
+    position: absolute;
+    margin-top: 317px;
+    margin-left: 86px;
+}
+.get-start{
+   display: flex;
+  
+    width: 150px;
+    height: 50px;
+     background-color:#4eaf4e ;
+    
+}
+h1{
+    margin-bottom: 25px;
+    font-size: 45px;
+    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    color:#2d2d37 ;
+}
+
+.text p{
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-family:'Manrope', sans-serif; 
+     color:#6f6f6f ;
+
+}
+.get-start span{
+   margin-top: 7px;
+   margin: 0 auto;
+   font-size: 1.5em;
+   color:#f9f9f9;
+
+}
+.get-start i{
+    margin-left: 5px;
+    color:#f9f9f9 ;
+/* }picture end */
