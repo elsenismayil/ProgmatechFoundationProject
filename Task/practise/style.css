@@ -7,7 +7,7 @@
  
     
 }
-.container{
+.container-info{
     width: 1450px;
     /* border: 1px solid red; */
     margin: 0 auto;
@@ -141,5 +141,38 @@ h1{
 }
 .get-start i{
     margin-left: 5px;
-    color:#f9f9f9 ;
-/* }picture end */
+    color:#f9f9f9 ;}
+    /*  */
+    /*  */
+    #consulting{
+        
+        background-color:#1b2232 ;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        
+    }
+    .container-consulting{
+        width: 1450px;
+      
+        padding-bottom: 40px;
+        padding-top: 40px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    .consulting-element{
+     
+        display: flex;
+    }
+    .consulting-element i{
+        font-size: 3.5em;
+        color:#4eaf4e ;
+
+    }
+    .consulting-element h2, h3, h4, h5{
+        font-size: 25px;
+        font-family:'Poppins', sans-serif ;
+        line-height: 1.2;
+        font-weight: 600;
+        color:#ffffff ;
+    }
