@@ -1,0 +1,65 @@
+#heading{
+    /* border: 1px solid black; */
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+.item-heading{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item-heading h1{
+    font-size: 30px;
+    color:#000 ;
+    font-weight: normal;
+    font-family: inherit;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.item-heading h2{
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.8;
+    color:#859196 ;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+
+.item-page{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+background-color: #fff;
+font-size: 16px;
+box-sizing: inherit;
+padding: 48px;
+margin-bottom: 24px;
+margin-right: 30px;
+
+}
+.item-page i{
+    font-size: 3.5em;
+    color: gray;
+    line-height: 1.8;
+  
+}
+
+.item-page h1{
+    font-size: 1.7em;
+    color:#000 ;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+.item-page p{
+    font-size: 16px;
+    line-height: 1.8;
+    color:#859196;
+    font-family:"Raleway", sans-serif ;
+    text-align: center;
+}
