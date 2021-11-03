@@ -268,3 +268,27 @@ h1{
     line-height: 1.2;
     font-weight: 600;
 }
+.item{
+ min-height: 250px;
+    border: 1px solid red;
+    margin: 20px;
+    overflow: hidden;
+   
+ 
+}
+.item img{
+    width: 100%;
+  
+    object-fit: cover;
+    transition: all 0.55s ease;
+}
+.item h1{
+  font-size: 20px;
+  margin-top: 25px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.item:hover img{
+    transform: scale(1.5);
+}
