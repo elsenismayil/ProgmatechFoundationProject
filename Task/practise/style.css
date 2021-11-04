@@ -104,10 +104,13 @@ picture img{
 /* picture start */
 
 .text{
-  ;
+  
     position: absolute;
     margin-top: 317px;
     margin-left: 86px;
+}
+.picture{
+    width: 1518px;
 }
 .get-start{
    display: flex;
@@ -125,7 +128,9 @@ h1{
     line-height: 1.2;
     color:#2d2d37 ;
 }
-
+.any{
+    width: 1518px;
+}
 .text p{
     margin-bottom: 15px;
     line-height: 1.8;
@@ -334,4 +339,32 @@ background:rgb(67 138 25 / 70%);
 color:#ffffff ;
 font-family: 'Poppins', sans-serif;
  text-align: center;
+}
+/* Service-end */
+/* funfucts-start */
+#funfucts{
+   background-image: url(https://templates.envytheme.com/noke/default/assets/img/bg8.jpg);
+   justify-content: center;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.fucts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.fucts h1{
+    color: #4eaf4e;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+}
+.fucts span{
+    color: #ffffff;
+    font-size: 15.5px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family:'Poppins', sans-serif ;
 }
