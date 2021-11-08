@@ -4,6 +4,7 @@ body{
 /* Navbar-Start */
 #navbar{
 
+
 }
 .navbar-container{
   
@@ -17,7 +18,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     padding-top: 15px;
-   
+  
 
 }
  .My-name{
@@ -80,6 +81,7 @@ display: flex;
      /* color:#ffffff ; */
      color: black;
      margin-bottom: 4rem;
+     margin-top: 8rem;
 
  }
  .text-center h1{
@@ -105,9 +107,120 @@ display: flex;
    line-height: 25px;
    text-align: center;
    color: white;
+   border:#f34236 ;
+   
+
   
  }
- .lets-talk:hover button{
+ .lets-talk button:hover{
      background-color: black;
      transition: all 0.55s;
+     box-shadow:0px 15px 20px rgb(243 66 54 / 40%) ;
+     cursor: pointer;
  }
+/* Home-end */
+/* About-me-start */
+
+#About-me{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+  padding: 70px 0px;
+}
+
+
+.p-10px{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+   
+  
+}
+.p-30px{
+    /* border: 1px solid blue; */
+    margin-left: 20px;
+}
+ .p-30px h1{
+     font-size: 32px;
+     font-weight: 600;
+     font-family:"Poppins", sans-serif ;
+     line-height: 1.4;
+
+
+ }
+ .p-30px h1 a{
+     color:#111111 ;
+
+ }
+ .p-30px h1 b{
+     color:#f34236 ;
+ }
+.p-30px h2{
+    padding-bottom: 5px;
+    color:#111111 ;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+
+}
+.p-30px .text-a{
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #828282;
+
+}
+.p-30px .text-b{
+    margin-bottom: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #828282;
+
+}
+.contact-me-sosial{
+    display: flex;
+   
+}
+.contact-me-sosial i{
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 2px 9px;
+    color:#f3f3f3 ;
+    background-color:black ;
+     margin-right: 10px;
+    line-height: 1.6;
+     font-weight: 400;
+     border-radius: 12%;
+
+}
+.contact-me-sosial i:hover{
+    background-color: white;
+    color: black;
+    transition: all.55s ease;
+}
+.dowload-cv{
+    margin-top: 25px;
+   
+}
+.dowload-cv .btna{
+    background-color:#f34236 ; 
+    border: #f34236;
+    font-size: 14px;
+    line-height: inherit;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    font-family:"Poppins", sans-serif ;
+    margin-right: 10px;
+
+}
+.dowload-cv .btna:hover{
+    background-color:#343a40 ;
+   box-shadow:0px 8px 15px rgb(0 0 0 / 10%); ;
+    transition: all .55s ease;
+}
