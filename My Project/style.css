@@ -49,12 +49,9 @@ display: flex;
      line-height: 1.6;
  }
  /* Navbar-End */
- .main-img{
-     position: relative;
-     top: 0;
-     left: 0;
- }
- /*  */
+ 
+ 
+ /* Home-Start */
  .text-center{
     min-height: 200px;
     min-width: 900px;
@@ -122,18 +119,17 @@ display: flex;
 /* About-me-start */
 
 #About-me{
-    /* border: 1px solid red; */
+ 
     margin-top: 30px;
   padding: 70px 0px;
+   
 }
-
 
 .p-10px{
     width: 350px;
     height: 350px;
     border: 1px solid black;
    
-  
 }
 .p-30px{
     /* border: 1px solid blue; */
@@ -193,6 +189,7 @@ display: flex;
     line-height: 1.6;
      font-weight: 400;
      border-radius: 12%;
+     cursor: pointer;
 
 }
 .contact-me-sosial i:hover{
@@ -220,7 +217,54 @@ display: flex;
 
 }
 .dowload-cv .btna:hover{
-    background-color:#343a40 ;
-   box-shadow:0px 8px 15px rgb(0 0 0 / 10%); ;
+    background-color:black ;
+    box-shadow:0px 15px 20px rgb(243 66 54 / 40%) ;
     transition: all .55s ease;
+}
+/* About-me-end */
+/* p-60-start */
+#p-60{
+    padding: 60px 0px;
+  
+    background-color:#f11e0f ;
+}
+.freelance{
+   
+    text-align: center;
+}
+.freelance h1{
+  font-weight: 600;
+  color: white;
+  font-size: 32px;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  box-sizing: border-box;
+  font-family:"Poppins", sans-serif ;
+  text-decoration: none;
+
+}
+.freelance .btnb{
+    padding: 12px 25px;
+    line-height: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid  white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    color:#f11e0f ;
+}
+.freelance .btnb:hover{
+    background-color:#f11e0f ;
+    transition: all .55s  ease;
+    color: white;
+  
+}
+/* p-60-end */
+/* work */
+.my-portfolio-are{
+    border: 1px solid black;
+    
 }
