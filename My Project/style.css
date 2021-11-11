@@ -370,7 +370,6 @@ padding: 70px;
 background-color:#f3f3f3 ;
 }
 .contact-me-text{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
@@ -390,12 +389,121 @@ background-color:#f3f3f3 ;
     text-align: center;
 }
 .contact-form{
-    border: 1px solid black;
-    height: 200px;
+    min-height: 200px;
     margin: 0px 10px;
+    padding: 20px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 30%);
+    
+ 
 }
 .adres-info{
-    border: 1px solid black;
-    height: 200px;
+   min-height: 200px;
     margin: 0px 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ align-items: center;
+ padding-bottom: 47px;
+ box-shadow: 0px 8px 15px rgb(0 0 0 / 30%);
+    }
+  
+}
+
+.line-us-drop h5{
+    font-size: 30px;
+    font-weight: 600;
+    color:#111111 ;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-family:"Poppins", sans-serif ;
+}
+.line-us-drop p{
+    font-size: 16px;
+    color: #828282;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif ;
+    text-align: left;
+}
+
+.direction-icon i{
+    font-size: 60px;
+    color:#828282 ;
+}
+.contact-input{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-input .name ,.email{
+    height: 35px;
+    font-size: 15px;
+    width: 241px;
+   
+}
+.your-comment{
+    height: 150px;
+    width: 760px;
+    margin-top: 25px;
+}
+.btnc{
+    background-color:#111111 ;
+    border-color: #111111;
+    color: #ffffff;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 25px;
+    font-family:"Poppins", sans-serif ;
+}
+.btnc:hover{
+    background-color:#f34236 ;
+    box-shadow:0px 15px 20px rgb(243 66 54 / 40%) ;
+    transition: all .75s ease;
+}
+.location-adress{
+    margin-top: 40px;
+    display: flex;
+}
+.email-adress{
+    display: flex;
+    margin-left: 83px;
+    margin-top: 40px;
+}
+.phone-numbers{
+    display: flex;
+    margin-left: -42px;
+    margin-top: 40px;
+   
+}
+.adres-info h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-family:"Poppins", sans-serif ;
+    line-height: 1.2;
+}
+.adres-info span{
+    font-size: 18px;
+    color:#828282;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family:"Poppins", sans-serif 
+}
+.icona{
+    margin-right: 30px;
+    width: 52px;
+    height: 52px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    
+}
+.adres-info i{
+    font-size: 35px;
+  color: white;
 }
