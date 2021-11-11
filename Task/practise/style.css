@@ -458,3 +458,29 @@ font-family: 'Poppins', sans-serif;
   color: #4eaf4e;
 }
 /* team-area-end */
+.my-portfolio h1{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.my-portfolio h1 .my{
+    color:#f11e0f ;
+}
+.my-portfolio h1 .portfolio-text{
+    color: #111111;
+}
+.work-item{
+    border: 1px solid black;
+    min-height: 200px;
+    min-width: 300px;
+    margin: 15px;
+}
+.my-portfolio{
+    border: 1px solid black;
+}
+.portfolio-filter ul{
+    display: flex;
+    border: 1px solid black;
+}
+
