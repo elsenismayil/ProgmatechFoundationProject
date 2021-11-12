@@ -52,6 +52,10 @@ display: flex;
  
  
  /* Home-Start */
+ #home{
+    background-color:#000000 ;
+    padding: 50px 0px;
+ }
  .text-center{
     min-height: 200px;
     min-width: 900px;
@@ -59,10 +63,8 @@ display: flex;
      display: flex;
      flex-direction: column;
      text-align: center;
-     
-   
   
- 
+    
   
  }
  .container{
@@ -74,24 +76,24 @@ display: flex;
  .text-center h2{
      font-size: 55px;
      font-weight: 300px;
-     /* color:#ffffff ; */
-     color: black;
+     color:#ffffff ;
      margin-bottom: 4rem;
      margin-top: 8rem;
-
+    
  }
  .text-center h1{
      font-size: 90px;
      font-weight: 500;
      line-height: 1.2;
      margin-bottom: 4rem;
+     color:#ffffff ;
+    
   
  }
  .text-center p{
      font-size: 15px;
      font-weight: 300;
-     /* color:#ffffff ; */
-     color: black;
+     color:#ffffff ;
      line-height: 1.6;
      margin-bottom: 4rem;
  }
@@ -121,6 +123,7 @@ display: flex;
  
     margin-top: 30px;
   padding: 70px 0px;
+ 
    
 }
 
@@ -268,7 +271,7 @@ display: flex;
 /* p-60-end */
 /* work-start */
 #work{
-    
+    padding: 45px 0px;
 }
 .my-portfolio-are{
   display: flex;
@@ -372,6 +375,7 @@ background-color:#f3f3f3 ;
 .contact-me-text{
     display: flex;
     justify-content: center;
+    margin-bottom: 45px;
 }
 .contact-me-text h1 .contact{
     font: 600;
@@ -391,7 +395,7 @@ background-color:#f3f3f3 ;
 .contact-form{
     min-height: 200px;
     margin: 0px 10px;
-    padding: 20px;
+    padding: 43px;
     box-shadow: 0px 8px 15px rgb(0 0 0 / 30%);
     
  
@@ -403,32 +407,34 @@ background-color:#f3f3f3 ;
    flex-direction: column;
    justify-content: center;
  align-items: center;
- padding-bottom: 47px;
  box-shadow: 0px 8px 15px rgb(0 0 0 / 30%);
-    }
+ padding-bottom: 48px;
   
 }
-
-.line-us-drop h5{
-    font-size: 30px;
-    font-weight: 600;
-    color:#111111 ;
-    margin-bottom: .5rem;
-    line-height: 1.2;
-    font-family:"Poppins", sans-serif ;
+.drop-us{
+    display: flex;
+    justify-content: space-between;
 }
-.line-us-drop p{
-    font-size: 16px;
-    color: #828282;
+.drop-us h5{
+font-size: 30px;
+font-weight: 600;
+color:#111111 ;
+margin-bottom: .7rem;
+line-height: 1.2;
+font-family:"Poppins", sans-serif ;
+}
+.drop-us p{
+    font-size: 17px;
+    font-weight: 600;
     line-height: 1.6;
-    font-weight: 400;
+    color:#828282 ;
+    margin-bottom: 10px;
     font-family:"Poppins", sans-serif ;
-    text-align: left;
 }
 
 .direction-icon i{
     font-size: 60px;
-    color:#828282 ;
+    color:  #828282;
 }
 .contact-input{
     display: flex;
@@ -442,7 +448,7 @@ background-color:#f3f3f3 ;
 }
 .your-comment{
     height: 150px;
-    width: 760px;
+    width: 718px;
     margin-top: 25px;
 }
 .btnc{
