@@ -369,9 +369,70 @@ font-family: 'Poppins', sans-serif;
     font-family:'Poppins', sans-serif ;
 }
 /* funfucts-end */
+/* what-we-do */
+#what-we-do{
+    padding: 100px 0px;
+ 
+}
+.Consultancy-Cases{
+    min-height: 250px;
+    margin-left: 50px;
+}
+.see-what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.see-what-we-do h2{
+    color:#4eaf4e ;
+    margin-bottom: 12px;
+    font-family:'Poppins', sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+}
+.see-what-we-do h1{
+    margin-bottom: .5rem;
+    font-size: 40px;
+    color:#2d2d37 ;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.see-what-we-do p , .busniess-analystic p , .project-manacment p{
+    font-size: 15px;
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+.busniess-analystic i,.project-manacment i{
+    font-size: 45px;
+    margin-bottom: 25px;
+    color:#4eaf4e ;
+}
+.busniess-analystic , .project-manacment h2{
+    font-size: 20px;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 600;
+    color:#2d2d37 ;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+}
+.what-we-do-picture{
+    height: 388px;
+    width: 520px;
+    margin-top: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+.what-we-do-picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 /* team-area-start*/
 #team-area{
-   
+   padding: 100px 0px;
   
 }
 .our-team{
