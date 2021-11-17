@@ -5,7 +5,7 @@ body{
 #navbar{
 padding: 10px 0px;
 box-shadow:rgb(58 78 95 / 20%) 0 10px 16px, rgb(58 78 95 / 5%) 0 -5px 16px ;
-
+background-color: black;
 }
 .navbar-container{
   
@@ -24,11 +24,10 @@ box-shadow:rgb(58 78 95 / 20%) 0 10px 16px, rgb(58 78 95 / 5%) 0 -5px 16px ;
 }
  .My-name{
 
-     font-size: 22px;
-     font-weight: 600;
+     font-size: 30px;
+     font-weight: 700;
      line-height: 32px;
-     /* color:#ffffff ; */
-     color: black;
+     color:#ffffff ;
 
  }
  .navbar-elements{
@@ -44,9 +43,9 @@ display: flex;
  .navbar-elements ul li{
      margin: 0 0 0 30px;
      font-family:"Poppins", sans-serif ;
-     font-size: 15px;
+     font-size: 20px;
      color: #828282;
-     font-weight: 400;
+     font-weight: 600;
      line-height: 1.6;
      cursor: pointer;
  }
@@ -55,7 +54,7 @@ display: flex;
  
  /* Home-Start */
  #home{
-    background-color:#000000 ;
+   background-image: url(/imges/7fe774bbacce09f00cb5b2e3cbc48db3.png);
     padding: 62px 0px;
  }
  .text-center{
