@@ -378,11 +378,7 @@ font-family: 'Poppins', sans-serif;
     min-height: 250px;
     margin-left: 50px;
 }
-.see-what-we-do{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+
 .see-what-we-do h2{
     color:#4eaf4e ;
     margin-bottom: 12px;
@@ -544,4 +540,27 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     border: 1px solid black;
 }
-
+/* team-area-end */
+/* plan-area */
+#plan{
+border: 1px solid red;
+}
+.our-pricing{
+    border: 1px solid black;
+}
+.our-pricing h2{
+    text-align: center;
+    margin-bottom: 12px;
+    color: #4eaf4e;
+    font-family:'Poppins', sans-serif ;
+    font-size: 14px;
+    font-weight: 600;
+}
+.our-pricing h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    line-height: 1.2;
+    font-family:'Poppins', sans-serif ;
+}
