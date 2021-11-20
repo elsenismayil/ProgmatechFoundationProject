@@ -348,6 +348,12 @@ position: absolute;
 align-items: center;
 transition: all .55s ease;
 }
+.portfolio-cover h5{
+    transition: all .55s ease;
+}
+.portfolio-cover h5:hover{
+    color: black;
+}
 .portfolio-info:hover .portfolio-cover{
     opacity: 1;
 
