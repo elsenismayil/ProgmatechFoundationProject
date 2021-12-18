@@ -9,11 +9,29 @@ function changeHeading(){
 }
 
 let metn = document.querySelector('p')
+let ul = document.querySelector('ul')
 function changeP(){
     metn.style.color = "green"
+    ul.style.color = "green"
 }
 
-let sekil = document.querySelector('img')
-function image(){
-    sekil.style.image = "src" , "https://res.cloudinary.com/practicaldev/image/fetch/s--UBVTT6xB--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/g83rrbcpsylwwxn9p92q.jpg"
-}
+
+let herfler = document.querySelector('p').innerHTML
+let ulc = document.querySelector('ul').innerHTML
+let herflerarr = herfler.split("")   
+let ulcarr = ulc.split("")
+ let cem = herflerarr.length + ulcarr.length
+ console.log(cem)
+ 
+let sozler = document.querySelector('p').innerHTML
+let ulSozler = document.querySelector('ul').innerHTML
+let sozlerArr = sozler.split(' ')
+let ulSozlerarr = ulSozler.split(' ')
+let cemSozler = ulSozlerarr.length + sozlerArr.length
+console.log(cemSozler)
+
+
+
+  
+
+
