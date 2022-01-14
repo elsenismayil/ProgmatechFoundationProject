@@ -6,6 +6,11 @@ body{
 padding: 10px 0px;
 box-shadow:rgb(58 78 95 / 20%) 0 10px 16px, rgb(58 78 95 / 5%) 0 -5px 16px ;
 background-color: black;
+overflow: hidden;
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+z-index: 100;
 }
 .navbar-container{
   
