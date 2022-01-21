@@ -1,0 +1,5 @@
+a = input('soz daxil edin:')
+b = (list(a))
+b.reverse()
+c = "".join(b)
+print(c)
