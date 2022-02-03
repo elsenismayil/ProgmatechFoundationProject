@@ -1,9 +1,9 @@
 a = input('eded daxil edin:')
 if int(a)%2==1 or int(a)<20: 
-    print("qeribe")
+    print("weired")
 elif 2<int(a)<5 :
-    print("qeribe deyil")
+    print("not weired")
 elif 6<int(a)<20:
-    print("qeribe")
+    print("weired")
 elif int(a)>20  :
-    print("qeribe deyil")
+    print("not weired")
