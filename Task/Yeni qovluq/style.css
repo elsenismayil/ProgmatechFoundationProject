@@ -1,0 +1,31 @@
+.item{
+    border: 1px solid red;
+    padding: 12px;
+}
+.add{
+    width: 100%;
+    border: 1px solid red;
+    height: 42px;
+     margin-top: 5px;
+}
+.star-1 i{
+    font-size: 11px;
+   margin: 7px 0px;
+}
+.producd{
+    color: grey;
+    text-decoration: none;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.coast{
+    color: class="coast";
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    font-weight: 500;
+    font-style: inherit;
+    line-height: 30px;
+}

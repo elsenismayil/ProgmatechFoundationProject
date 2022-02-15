@@ -1,0 +1,22 @@
+.container{
+    width: 1500px;
+    margin: 0px auto;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+.center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.orange{
+    color: #ffaa00;
+}
+.gray{
+    color: #888888;
+}
