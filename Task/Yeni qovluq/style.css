@@ -29,3 +29,30 @@
     font-style: inherit;
     line-height: 30px;
 }
+.f-image , .f-image img{
+    width: 327px;
+    height: 420px;
+   
+}
+.s-image , .s-image img{
+    width: 327px;
+    height: 420px;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+}
+.iconic-area{
+    width: 327px;
+    min-height: 30px;
+    border: 1px solid red;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 50;
+}
+.iconic-area i{
+    font-size: 13px;
+    margin-right: 10px;
+}
+.i-border{
+    border: 1px solid red;
+}

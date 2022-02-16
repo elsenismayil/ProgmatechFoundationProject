@@ -11,6 +11,9 @@
 .center{
     justify-content: center;
 }
+.flex-end{
+    justify-content: flex-end;
+}
 .align-center{
     align-items: center;
 }
@@ -19,4 +22,12 @@
 }
 .gray{
     color: #888888;
+}
+.border-50{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.bottom{
+    bottom: auto;
 }
