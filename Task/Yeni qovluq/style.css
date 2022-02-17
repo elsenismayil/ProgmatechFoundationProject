@@ -1,13 +1,31 @@
 .item{
-    border: 1px solid red;
     padding: 12px;
+    transition: all .3s ease;
 }
+.item:hover{
+    box-shadow: 0 0 8px rgb(41 35 35 / 16%);
+
+}
+.item:hover .add{
+    opacity: 1;
+}
+.item:hover .iconic-area .s-2{
+   opacity: 1;
+}
+
 .add{
     width: 100%;
-    border: 1px solid red;
     height: 42px;
      margin-top: 5px;
+     background-color: #986d6d;
+     opacity: 0;
+     transition: all.3s;
 }
+.add:hover{
+    background-color: black;
+    color: white;
+}
+
 .star-1 i{
     font-size: 11px;
    margin: 7px 0px;
@@ -40,6 +58,10 @@
     position: absolute;
     top: 7px;
     opacity: 0;
+    transition: all .3s ease;
+}
+.item:hover .s-image, .s-image img{
+    opacity: 1;
 }
 .iconic-area{
     position: absolute;
@@ -56,8 +78,8 @@
    display: block;
    border-radius: 55%;
    margin-bottom: 5px;
-   width: 28px;
-   height: 28px;
+   width: 32px;
+   height: 32px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -65,5 +87,11 @@
 }
 .i-border i{
     font-size: 15px;
-    margin-left: 8px;
+    margin-left: 10px;
+}
+.i-border{
+    transition: all .8s ease;
+}
+.i-border:hover{
+    background-color: #986d6d;
 }

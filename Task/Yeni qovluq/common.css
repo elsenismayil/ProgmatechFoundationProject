@@ -2,7 +2,6 @@
     width: 1500px;
     margin: 0px auto;
     display: flex;
-    border: 1px solid black;
     justify-content: space-between;
 }
 .flex{
@@ -30,4 +29,7 @@
 
 .bottom{
     bottom: auto;
+}
+.op-0{
+    opacity: 0;
 }
